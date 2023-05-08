@@ -1,6 +1,6 @@
 const path = require("path");
 const express = require("express");
-const User = require("../models/user");
+const User = require("../models/User");
 const { check, body } = require("express-validator");
 
 
