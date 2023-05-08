@@ -17,7 +17,7 @@ const adminRoutes = require('./routes/admin')
 const shopRoutes = require('./routes/shop');
 const authRoutes = require('./routes/auth');
 // const { get404page } = require('./controllers/404');
-const User = require('./models/user');
+const User = require('./models/User');
 const { get404page, get500page } = require('./controllers/error');
 const multer = require('multer');
 const MONGO_DB_URI = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.bzknkqd.mongodb.net/${process.env.MONGO_DB_NAME}?retryWrites=true&w=majority`

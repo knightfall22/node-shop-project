@@ -4,7 +4,7 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const Order = require("../models/Order");
 const Product = require("../models/Product");
-const user = require("../models/user");
+const user = require("../models/User");
 const pdfDocument = require("pdfkit");
 const session = require("express-session");
 const ITEMS_PER_PAGE = 1
