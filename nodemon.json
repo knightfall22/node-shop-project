@@ -1,0 +1,8 @@
+{
+    "env":{
+        "MONGO_USER": "Bolaji",
+        "MONGO_PASSWORD":"AwwKeViFuCfdsrMH",
+        "MONGO_DB_NAME": "shop",
+        "STRIPE_SECRET_KEY":"sk_test_K5upUY5ypcNUgWSy0pmTgGwU"
+    }
+}
